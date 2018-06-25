@@ -125,18 +125,18 @@ button:hover {
     background-color: #4dc4c4;
 }
 
-div.img-container {
+.portfolio .img-container {
     float: left;
     position: relative;
     margin: 0 30px 50px 0;
     transition: opacity .5s ease;
 }
 
-div.img-container:hover {
+.portfolio .img-container:hover {
     opacity: .6;
 }
 
-div.img-banner {
+.portfolio div.img-banner {
     background-color: #4aaaa5;
     text-align: center;
     color: #fff;
@@ -147,6 +147,10 @@ div.img-banner {
     bottom: 15px;
     width: 100%;
 
+}
+
+.portfolio img {
+    width: 300px;
 }
 
 footer {
